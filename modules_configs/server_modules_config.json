@@ -36,6 +36,10 @@
     "smart_contract_connector": {
       "module": "./modules/smart_contract_connector",
       "dependencies": ["config", "cached"]
+    },
+    "trust_updater": {
+      "module": "./modules/trustupd",
+      "dependencies": ["config", "cached"]
     }
   }
 }
